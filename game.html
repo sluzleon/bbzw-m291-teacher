@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Game</title>
 <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="assets/css/game.css">
 </head>
 <body>
 <div id="Web_Game">
@@ -69,10 +70,17 @@
 		</div>
 	</div>
 	<div id="Gruppe_4">
-		<img id="Bild_2" src="assets/images/Bild_2.png" srcset="assets/images/Bild_2.png 1x, assets/images/Bild_2@2x.png 2x">
-			
-			
+		<div id="game">
+			<div id="background"></div>
+			<div id="dino"></div>
+			<div id="rock"></div>
+		</div>
+		<div id="score">0</div>
+		<div class="highscore">
+			Highscore: <span id="highscore-value">0</span>
+		</div>		
 	</div>
 </div>
+<script src="assets/js/game.js"></script>
 </body>
 </html>
