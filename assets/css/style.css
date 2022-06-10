@@ -1,0 +1,635 @@
+@charset "utf-8";
+/* CSS Document */
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Web_index {
+		position: absolute;
+		width: 1920px;
+		height: 1823px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#AJ1 {
+		fill: rgba(246,246,246,1);
+		stroke: rgba(255,255,255,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.AJ1 {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 1081px;
+		left: 0px;
+		top: 0px;
+	}
+	#Sneaky_Sneakers {
+		left: 213px;
+		top: 277px;
+		position: absolute;
+		overflow: visible;
+		width: 704px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 100px;
+		color: rgba(184,139,196,1);
+	}
+	#Der_Sneakershop_aber_etwas_and {
+		left: 228px;
+		top: 414px;
+		position: absolute;
+		overflow: visible;
+		width: 300px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(162,162,168,1);
+	}
+	#Rechteck_5 {
+		fill: rgba(184,139,196,1);
+	}
+	.Rechteck_5 {
+		position: absolute;
+		overflow: visible;
+		width: 127px;
+		height: 39px;
+		left: 228px;
+		top: 475px;
+		cursor: pointer;
+	}
+	#Pfad_6 {
+		fill: rgba(184,139,196,1);
+	}
+	.Pfad_6 {
+		overflow: visible;
+		position: absolute;
+		width: 127px;
+		height: 39px;
+		left: 384px;
+		top: 475px;
+		transform: matrix(1,0,0,1,0,0);
+		cursor: pointer;
+	}
+	#Bestellen {
+		left: 252px;
+		top: 479px;
+		position: absolute;
+		overflow: visible;
+		width: 80px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#Bild_3 {
+		position: absolute;
+		width: 941px;
+		height: 1059px;
+		left: 960px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Game {
+		left: 422px;
+		top: 479px;
+		position: absolute;
+		overflow: visible;
+		width: 53px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#Pfad_4 {
+		fill: rgba(184,139,196,1);
+	}
+	.Pfad_4 {
+		overflow: visible;
+		position: absolute;
+		width: 1254px;
+		height: 749px;
+		left: 666px;
+		top: 1081px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Lorem_ipsum_dolor_sit_amet_con {
+		left: 960px;
+		top: 1268px;
+		position: absolute;
+		overflow: visible;
+		width: 691px;
+		height: 409px;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(246,246,246,1);
+	}
+	#nav {
+		position: absolute;
+		width: 2042px;
+		height: 387.583px;
+		left: -122px;
+		top: -116.583px;
+		overflow: visible;
+	}
+	#Gruppe_1 {
+		position: absolute;
+		width: 1920px;
+		height: 107px;
+		left: 122px;
+		top: 116.583px;
+		overflow: visible;
+	}
+	#Rechteck_2 {
+		fill: rgba(184,139,196,1);
+	}
+	.Rechteck_2 {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 107px;
+		left: 0px;
+		top: 0px;
+	}
+	#Rechteck_3 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(255,255,255,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rechteck_3 {
+		position: absolute;
+		overflow: visible;
+		width: 403px;
+		height: 34px;
+		left: 1330px;
+		top: 40px;
+	}
+	#Suche {
+		left: 1374px;
+		top: 40px;
+		position: absolute;
+		overflow: visible;
+		width: 54px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(112,112,112,1);
+	}
+	#Icon_awesome-search {
+		fill: rgba(162,162,168,1);
+	}
+	.Icon_awesome-search {
+		overflow: visible;
+		position: absolute;
+		width: 14.135px;
+		height: 15.002px;
+		left: 1346.865px;
+		top: 49.999px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_ionic-ios-cart {
+		position: absolute;
+		width: 56.18px;
+		height: 51.89px;
+		left: 1762.53px;
+		top: 31.055px;
+		overflow: visible;
+	}
+	#Pfad_1 {
+		fill: rgba(255,255,255,1);
+	}
+	.Pfad_1 {
+		overflow: visible;
+		position: absolute;
+		width: 6.485px;
+		height: 6.485px;
+		left: 11.875px;
+		top: 45.406px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Pfad_2 {
+		fill: rgba(255,255,255,1);
+	}
+	.Pfad_2 {
+		overflow: visible;
+		position: absolute;
+		width: 6.485px;
+		height: 6.485px;
+		left: 42.204px;
+		top: 45.406px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Pfad_3 {
+		fill: rgba(255,255,255,1);
+	}
+	.Pfad_3 {
+		overflow: visible;
+		position: absolute;
+		width: 56.18px;
+		height: 43.231px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Rechteck_4 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rechteck_4 {
+		width: 152.285px;
+		height: 405px;
+		position: absolute;
+		overflow: visible;
+		transform: translate(122px, 116.583px) matrix(1,0,0,1,1.8858,-125.2916) rotate(47deg);
+		transform-origin: center;
+	}
+	#Gruppe_2 {
+		position: absolute;
+		width: 354px;
+		height: 28px;
+		left: 379px;
+		top: 153.583px;
+		overflow: visible;
+	}
+	#Home {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 51px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#Komponente_3__1 {
+		position: absolute;
+		width: 49px;
+		height: 28px;
+		left: 145px;
+		top: 0px;
+		overflow: visible;
+		cursor: pointer;
+	}
+	#Game_ {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 50px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#Shop_ {
+		left: 306px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 49px;
+		white-space: nowrap;
+		cursor: pointer;
+		text-align: left;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#Gruppe_3 {
+		position: absolute;
+		width: 105px;
+		height: 106px;
+		left: 36px;
+		top: 14px;
+		overflow: visible;
+	}
+	#Bild_4 {
+		position: absolute;
+		width: 104px;
+		height: 106px;
+		left: 1px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rechteck_15 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rechteck_15 {
+		position: absolute;
+		overflow: visible;
+		width: 99px;
+		height: 29px;
+		left: 4px;
+		top: 69px;
+	}
+	#SneakySneaker {
+		left: 0px;
+		top: 69px;
+		position: absolute;
+		overflow: visible;
+		width: 101px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		color: rgba(162,162,168,1);
+	}
+	#Bild_6 {
+		position: absolute;
+		width: 668px;
+		height: 751px;
+		left: 0px;
+		top: 1072px;
+		overflow: visible;
+	}
+
+	#Web_Shop {
+		position: absolute;
+		width: 1920px;
+		height: 1080px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+	}
+	#Air_Jordan_Air_Jordan_1_LIGHT_ {
+		left: 101px;
+		top: 271px;
+		position: absolute;
+		overflow: visible;
+		width: 397px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Source Code Pro;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 33px;
+		color: rgba(97,97,96,1);
+	}
+	#Icon_ionic-ios-star {
+		fill: rgba(97,97,96,1);
+	}
+	.Icon_ionic-ios-star {
+		overflow: visible;
+		position: absolute;
+		width: 17.766px;
+		height: 16.497px;
+		left: 100px;
+		top: 433.994px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_ionic-ios-star_k {
+		fill: rgba(97,97,96,1);
+	}
+	.Icon_ionic-ios-star_k {
+		overflow: visible;
+		position: absolute;
+		width: 17.766px;
+		height: 16.497px;
+		left: 121.319px;
+		top: 433.994px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_ionic-ios-star_l {
+		fill: rgba(97,97,96,1);
+	}
+	.Icon_ionic-ios-star_l {
+		overflow: visible;
+		position: absolute;
+		width: 17.766px;
+		height: 16.497px;
+		left: 142.638px;
+		top: 433.994px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_ionic-ios-star_m {
+		fill: rgba(97,97,96,1);
+	}
+	.Icon_ionic-ios-star_m {
+		overflow: visible;
+		position: absolute;
+		width: 17.766px;
+		height: 16.497px;
+		left: 163.957px;
+		top: 433.994px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_ionic-ios-star-half {
+		fill: rgba(97,97,96,1);
+	}
+	.Icon_ionic-ios-star-half {
+		overflow: visible;
+		position: absolute;
+		width: 17.766px;
+		height: 16.497px;
+		left: 185.276px;
+		top: 433.994px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Komponente_2__1 {
+		position: absolute;
+		width: 325px;
+		height: 342px;
+		left: 100px;
+		top: 603px;
+		overflow: visible;
+	}
+
+	#Rechteck_11 {
+		fill: rgba(255,255,255,1);
+	}
+	.Rechteck_11 {
+		position: absolute;
+		overflow: visible;
+		width: 325px;
+		height: 59px;
+		left: 0px;
+		top: 0px;
+	}
+	#Rechteck_11_-_Kontur {
+		fill: rgba(112,112,112,1);
+	}
+	.Rechteck_11_-_Kontur {
+		overflow: visible;
+		position: absolute;
+		width: 324.51px;
+		height: 59.301px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#n_4 {
+		left: 21px;
+		top: 21px;
+		position: absolute;
+		overflow: visible;
+		width: 17px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(97,97,96,1);
+	}
+
+	#Icon_ionic-ios-arrow-down_ {
+		fill: rgba(97,97,96,1);
+	}
+	.Icon_ionic-ios-arrow-down_ {
+		overflow: visible;
+		position: absolute;
+		width: 26.961px;
+		height: 15.374px;
+		left: 276.406px;
+		top: 25.807px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+
+	#Pfad_7 {
+		fill: rgba(184,139,196,1);
+	}
+	.Pfad_7 {
+		overflow: visible;
+		position: absolute;
+		width: 325px;
+		height: 43px;
+		left: 100px;
+		top: 547px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#In_den_Warenkorb {
+		left: 170px;
+		top: 552px;
+		position: absolute;
+		overflow: visible;
+		width: 171px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 23px;
+		color: rgba(246,246,246,1);
+	}
+	#nav {
+		position: absolute;
+		width: 2042px;
+		height: 387.583px;
+		left: -122px;
+		top: -116.583px;
+		overflow: visible;
+	}
+	#Home {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 51px;
+		white-space: nowrap;
+		cursor: pointer;
+		text-align: left;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#Game_shop {
+		left: 145px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 50px;
+		white-space: nowrap;
+		cursor: pointer;
+		text-align: left;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#Shop {
+		left: 306px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 45px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Source Sans Pro;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(255,255,255,1);
+	}
+	#Gruppe_3_Shop {
+		position: absolute;
+		width: 105px;
+		height: 106px;
+		left: 158px;
+		top: 130.583px;
+		overflow: visible;
+	}
+	#Bild_5 {
+		position: absolute;
+		width: 975px;
+		height: 975px;
+		left: 1033px;
+		top: 105px;
+		overflow: visible;
+	}
+	#Bild_2 {
+		position: absolute;
+		width: 920px;
+		height: 526px;
+		left: 500px;
+		top: 334px;
+		overflow: visible;
+	}
