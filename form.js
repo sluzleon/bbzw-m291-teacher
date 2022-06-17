@@ -4,18 +4,24 @@ const lastname = document.getElementById("lastname")
 const submit = document.getElementById("submit")
 submit.disabled = true
 
+
 const validate = () => {
-    if (email.value == "") {
-        submit.disabled = true
+    if (email.value =="" || firstname.value == "" || lastname.value == "") {
+      submit.disabled = true
     } else {
-        submit.disabled = false
+      submit.disabled = false
     }
-}
+  }
 
 email.addEventListener("keyup", (event) => {
     validate()
 })
-
+firstname.addEventListener("keyup", (event) => {
+    validate()
+})
+lastname.addEventListener("keyup", (event) => {
+    validate()
+})
 
 submit.addEventListener("click", async (event) => {
     event.preventDefault()
@@ -25,7 +31,7 @@ submit.addEventListener("click", async (event) => {
     }
     else {
         // Weiterleitung auf die Game Page  
-        location.href = "./game.html"
+        //location.href = "./game.html"
     }
 
 })
