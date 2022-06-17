@@ -123,4 +123,6 @@ body {
     background-color: rgb(0, 0, 0);
   }
   
-  
+  .submit:disabled {
+    background-color: rgb(218, 22, 22);
+  }
