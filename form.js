@@ -31,7 +31,7 @@ submit.addEventListener("click", async (event) => {
     }
     else {
         // Weiterleitung auf die Game Page  
-        //location.href = "./game.html"
+        location.href = "./Game.html"
     }
 
 })
