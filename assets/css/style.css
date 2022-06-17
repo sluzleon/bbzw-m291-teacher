@@ -148,10 +148,12 @@
 		overflow: visible;
 		width: 691px;
 		height: 409px;
-		text-align: center;
+		hyphens: auto;
+		text-align: justify;
+		text-align-last: left;
 		font-family: Source Sans Pro;
 		font-style: normal;
-		font-weight: normal;
+		font-weight: lighter;
 		font-size: 30px;
 		color: rgba(246,246,246,1);
 	}
@@ -227,10 +229,10 @@
 	}
 	#Icon_ionic-ios-cart {
 		position: absolute;
-		width: 56.18px;
-		height: 51.89px;
+		width: 80px;
+		height: 80px;
 		left: 1762.53px;
-		top: 31.055px;
+		top: 15.055px;
 		overflow: visible;
 	}
 	#Pfad_1 {
@@ -633,3 +635,18 @@
 		top: 334px;
 		overflow: visible;
 	}
+	a:link {
+		color: white;
+		text-decoration: none;
+	}
+	
+	a:visited {
+		color: white;
+		text-decoration: none;
+	}
+	
+	a:hover {
+		color: darkmagenta;
+		text-decoration: none;
+	}
+	
