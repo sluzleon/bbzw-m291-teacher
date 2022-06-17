@@ -11,8 +11,22 @@ function validateEmail(email)
     return re.test(email);
  }
 
+ function validateFirstname(firstname) 
+{ 
+  var re = /^[A-Za-z]+$/;
+  console.log (re.test(firstname))
+    return re.test(firstname);
+ }
+
+ function validateLastname(lastname) 
+ { 
+   var re = /^[A-Za-z]+$/;
+   console.log (re.test(lastname))
+     return re.test(lastname);
+  }
+
 const validate = () => {
-    if (firstname.value == "" || lastname.value == "" || !validateEmail(email.value)) {
+    if (!validateEmail(email.value) || !validateFirstname(firstname.value) || !validateLastname(lastname.value)) {
       submit.disabled = true
     } else {
       submit.disabled = false
