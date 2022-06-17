@@ -2,22 +2,20 @@ const email = document.getElementById("email")
 const firstname = document.getElementById("firstname")
 const lastname = document.getElementById("lastname") 
 const submit = document.getElementById("submit")
-const regex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
 submit.disabled = true
 
 function validateEmail(email) 
-{
-    var re = /\S+@\S+\.\S+/;
+{ 
+  var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  console.log (re.test(email))
     return re.test(email);
  }
 
 const validate = () => {
-    if (email.value == "" || firstname.value == "" || lastname.value == "") {
+    if (firstname.value == "" || lastname.value == "" || !validateEmail(email.value)) {
       submit.disabled = true
-    } else if (validateEmail (email.value) && !(firstname.value == "" && !(lastname.value == ""))) { 
-      submit.disabled = false
     } else {
-      submit.disabled = true
+      submit.disabled = false
     }
   }
 
