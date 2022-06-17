@@ -97,7 +97,7 @@ body {
   }
   
   .input:not(:placeholder-shown) ~ .placeholder {
-    color: #fefeff;
+    color: #b88bc4;
   }
   
   .input:focus ~ .placeholder {
