@@ -21,7 +21,7 @@ body {
   width: 75px;
   top: 225px;
   position: relative;
-  background-image: url("assets/images/Walking_man.png");
+  background-image: url("blob/main/assets/images/Walking_man.png");
   background-size: cover;
 }
 
@@ -35,7 +35,7 @@ body {
   position: relative;
   top: 175px;
   left: 550px;
-  background-image: url("assets/images/Kackhaufen.png");
+  background-image: url("blob/main/assets/images/Kackhaufen.png");
   background-size: cover;
 }
 
@@ -81,7 +81,7 @@ body {
   position: absolute;
   width: 600px;
   height: 300px;
-  background-image: url("assets/images/background.png");
+  background-image: url("blob/main/assets/images/background.png");
   background-size: cover;
 }
 
