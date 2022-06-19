@@ -632,10 +632,6 @@
 		text-decoration: none;
 	}
 
-	a2:link {
-		color: blue;
-		text-decoration: none;
-	}
 	
 	a:visited {
 		color: white;
@@ -643,6 +639,22 @@
 	}
 	
 	a:hover {
+		color: darkmagenta;
+		text-decoration: none;
+	}
+
+	b:link {
+		color: white;
+		text-decoration: none;
+	}
+
+	
+	b:visited {
+		color: white;
+		text-decoration: none;
+	}
+	
+	b:hover {
 		color: darkmagenta;
 		text-decoration: none;
 	}
