@@ -21,7 +21,7 @@ body {
   width: 75px;
   top: 225px;
   position: relative;
-  background-image: url("https://github.com/sluzleon/bbzw-m291-teacher/blob/main/assets/images/Walking_man.png");
+  background-image: url("assets/images/Walking_man.png");
   background-size: cover;
 }
 
