@@ -643,21 +643,24 @@
 		text-decoration: none;
 	}
 
-	b:link {
-		color: white;
-		text-decoration: none;
+	.gameshoplink {
+	a:link {
+	color: white;
+	text-decoration: none;
 	}
 
 	
-	b:visited {
+	a:visited {
 		color: white;
 		text-decoration: none;
 	}
 	
-	b:hover {
+	a:hover {
 		color: darkmagenta;
 		text-decoration: none;
 	}
+	}
+
 	footer {
 		text-align: center;
 		padding: 3px;
