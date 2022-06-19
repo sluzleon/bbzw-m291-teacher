@@ -643,23 +643,6 @@
 		text-decoration: none;
 	}
 
-	.gameshoplink {
-	a:link {
-	color: white;
-	text-decoration: none;
-	}
-
-	
-	a:visited {
-		color: white;
-		text-decoration: none;
-	}
-	
-	a:hover {
-		color: darkmagenta;
-		text-decoration: none;
-	}
-	}
 
 	footer {
 		text-align: center;
