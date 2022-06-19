@@ -631,6 +631,11 @@
 		color: white;
 		text-decoration: none;
 	}
+
+	a2:link {
+		color: blue;
+		text-decoration: none;
+	}
 	
 	a:visited {
 		color: white;
